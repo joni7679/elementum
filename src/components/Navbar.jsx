@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { X } from "lucide-react";
-
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
   const navItems = ["home", "studio", "services", "contact", "faqs"];
-
   const scrollToSection = (id) => {
     setIsOpen(false);
     const element = document.getElementById(id.toLowerCase());
@@ -14,7 +11,6 @@ export default function Navbar() {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-
   return (
     <header className="relative w-full py-6 px-6 md:px-12 bg-transparent z-40 max-w-7xl mx-auto">
       <nav className="flex items-center justify-between">
@@ -25,7 +21,6 @@ export default function Navbar() {
         >
           Elementum
         </a>
-
         {/* Central Nav Links (Desktop) */}
         <div className="hidden md:flex items-center space-x-10">
           {navItems.map((item) => (

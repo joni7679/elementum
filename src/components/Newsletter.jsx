@@ -150,9 +150,7 @@ export default function Newsletter() {
           <p>© 2026 Elementum. All rights reserved.</p>
           <p className="uppercase tracking-widest font-mono text-[9px]">Crafted with Professional Intent</p>
         </div>
-
       </div>
-
       {/* Subscription Popup Dialog */}
       <SubscribeModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </footer>
