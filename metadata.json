@@ -1,0 +1,6 @@
+{
+  "name": "Elementum",
+  "description": "A beautiful, modern agency landing page for Elementum with custom graphics, portraits, interactive services, and a sleek layout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
